@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: skyblue;
+    
+}
+
+.result{
+    display: flex;
+    min-height: 10vh;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    align-items: center;
+    
+}
+
+ul{
+    width: 50%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+h2{
+    margin-left: 20px;
+    font-family: sans-serif;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    color:cornflowerblue;
+}
+
+
+
+.condition, .degree{
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 10px;
+}
